@@ -1,0 +1,845 @@
+$theamColor: #0a2345;
+$textColor: #2a5da3;
+%button{
+    color: #fff;
+    background: transparent;
+    border-color: $textColor;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 40px;
+}
+%h1{
+    font-size: 43px;
+    line-height: 53px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    color: #fff;
+    span{
+        color:$textColor;
+    } 
+}
+%p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #66778e;
+}
+%phoneChildH3{
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    @media (max-width:1199px) {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    @media (max-width:991px) {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+// ********************** header-section to music section ******************
+.topBlueSection{
+    background-color: $theamColor;
+    .headerSection{
+        padding: 60px 0px;
+        @media (max-width:991px) {
+            padding: 40px 0px;
+            text-align: center;
+        }
+        @media (max-width:767px) {
+            padding: 30px 0px;
+            text-align: center;
+        }
+        @media (max-width:575px) {
+            padding: 20px 0px;
+            text-align: center;
+        }
+        .row {
+            align-items: center;
+        }
+        img{
+            @media (max-width:991px) {
+                width: 150px;
+            }
+            @media (max-width:767px) {
+                width: 130px;
+            }
+            @media (max-width:575px) {
+                width: 100px;
+            }
+        }
+        .Hamburger{
+            @media (max-width:991px) {
+                display: none;
+            }
+            @media (max-width:767px) {
+                display: none;
+            }
+            @media (max-width:575px) {
+                display: none;
+            }
+        }
+    }
+    .bannerSection{
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 80px 0px 100px 0px;
+        @media (max-width:991px) {
+            padding:40px 0px;
+        }
+        @media (max-width:767px) {
+            padding:30px 0px;
+        }
+        @media (max-width:575px) {
+            padding: 20px 0px 20px 0px;
+        }
+        h1{
+            @extend %h1;
+            @media (max-width:991px) {
+                font-size: 38px;
+                line-height: 48px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                font-size: 32px;
+                line-height: 42px;
+                padding-bottom: 12px;
+                text-align: center;
+            }
+            @media(max-width:575px) {
+                font-size: 28px;
+                line-height: 38px;
+                padding-bottom: 4px;
+                text-align: center;
+            }
+        }
+        h6{
+            font-size: 18px;
+            line-height: 28px;
+            color: $textColor;
+            padding-bottom: 70px;
+            @media (max-width:991px) {
+                font-size: 16px;
+                line-height: 26px;
+                padding-bottom: 50px;
+            }
+            @media (max-width:767px) {
+                font-size: 14px;
+                line-height: 24px;
+                padding-bottom: 40px;
+            }
+            @media (max-width:575px) {
+                font-size: 12px;
+                line-height: 22px;
+                padding-bottom: 30px;
+            }
+        }
+        .btn-light {
+            @extend %button;
+            &:hover{
+                background-color: $textColor;
+                border-color: #fff;
+            }
+            @media (max-width:991px) {
+                color: #fff;
+                font-size: 16px;
+                padding: 12px 24px;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                color: #fff;
+                font-size: 14px;
+                padding: 12px 24px;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                color: #fff;
+                font-size: 12px;
+                padding: 10px 16px;
+                text-align: center;
+            }
+        }
+    }
+    .musicAppSection{
+        padding: 90px 0px 111px 0px;
+        @media (max-width:991px) {
+            padding: 60px 0px;
+        }
+        @media (max-width:767px) {
+            padding: 50px 0px;
+        }
+        @media (max-width:575px) {
+            padding: 40px 0px;
+        }
+        background: url("../images/Screens.png") center center no-repeat;
+        width: 100%;
+        .row{
+            align-items: center;
+        }
+        .musicAppInner{
+            text-align: center;
+            @media (max-width:991px) {
+                padding-bottom: 60px;
+            }
+            @media (max-width:767px) {
+                padding-bottom: 50px;
+            }
+            @media (max-width:575px) {
+                padding-bottom: 40px;
+            }
+            img{
+                max-width: 100%;
+                box-shadow:5px 0px 18px 12px #071b37 , 5px 0px 18px 12px #091e3c;
+                &:hover{
+                    box-shadow: none;
+                }
+                @media (max-width:991px) {
+                    width: 300px;
+                }
+                @media (max-width:767px) {
+                    width: 280px;
+                }
+                @media (max-width:575px) {
+                    width: 215px;
+                }
+            }
+        }
+    }
+}
+// ------------------ headphone Section
+.headphoneSection{
+    background: url("../images/Headphones.png") left center no-repeat;
+    padding: 180px 0px;
+    background-color:$theamColor;
+    text-align: left;
+    @media (max-width:1199px) {
+        text-align: center;
+        padding: 50px 0px;
+        background-size: contain;
+    }
+    @media (max-width:991px) {
+        text-align: center;
+        padding: 50px 0px;
+        background-size: contain;
+    }
+    @media (max-width:767px) {
+        text-align: center;
+        padding: 40px 0px;
+        background-size: contain;
+    }
+    @media (max-width:575px) {
+        text-align: center;
+        padding: 20px 0px;
+        background-size: contain;
+    }
+    .text{
+        color: #fff;
+        h1{
+            @extend %h1;
+            @media (max-width:991px) {
+                font-size: 38px;
+                line-height: 48px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                font-size: 32px;
+                line-height: 42px;
+                padding-bottom: 12px;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                font-size: 28px;
+                line-height: 38px;
+                padding-bottom: 4px;
+                text-align: center;
+            }
+        }
+        p{
+            @extend %p;
+            @media (max-width:1199px) {
+                font-size: 13px;
+                line-height: 23px;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                font-size: 12px;
+                line-height: 22px;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                font-size: 10px;
+                line-height: 20px;
+                text-align: center;
+            }
+        }
+        .btn-light {
+            @extend %button;
+            &:hover{
+                background-color: $textColor;
+                border-color: #fff;
+            }
+            @media (max-width:991px) {
+                color: #fff;
+                font-size: 16px;
+                padding: 12px 24px;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                color: #fff;
+                font-size: 14px;
+                padding: 12px 24px;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                color: #fff;
+                font-size: 12px;
+                padding: 10px 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+// ------------------------ features Section
+.featuresSection{
+    background-color: $theamColor;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    @media (max-width:1199px) {
+        padding: 100px 0px;
+    }
+    h1{
+        @extend %h1;
+        padding-bottom: 110px;
+        @media (max-width:991px) {
+            padding-bottom: 60px;
+            font-size: 38px;
+            line-height: 48px;
+            text-align: center;
+        }
+        @media (max-width:767px) {
+            padding-bottom: 30px;
+            font-size: 32px;
+            line-height: 42px;
+            text-align: center;
+        }
+        @media (max-width:575px) {
+            padding-bottom: 20px;
+            font-size: 28px;
+            line-height: 38px;
+            text-align: center;
+        }
+    }
+    .phone{
+        position: relative;
+        .phoneImage{
+            @media (max-width:1199px) {
+                width: 570px;
+            }
+            @media (max-width:991px) {
+                width: 570px;
+            }
+            @media (max-width:767px) {
+                width: 522px;
+            }
+            @media (max-width:575px) {
+                width: 400px;
+            }
+        }
+        .phoneChild1{
+            h3{ @extend %phoneChildH3; }
+            p{ 
+                @extend %p;
+                @media (max-width:1199px) {
+                    font-size: 13px;
+                    line-height: 23px;
+                    text-align: center;
+                } 
+                @media (max-width:767px) {
+                    font-size: 12px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+                @media (max-width:575px) {
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+            .fa-volume-up{
+                color: #ff3334;
+                font-size: 50px;
+            }
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 0px;
+            @media (max-width:1199px) {
+                top: 0px;
+                left: 0px;
+                text-align: center;
+            }
+            @media (max-width:991px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                position: unset;
+                text-align: center;
+            }
+        }
+        .phoneChild2{
+            h3{ @extend %phoneChildH3; }
+            p{ 
+                @extend %p;
+                @media (max-width:1199px) {
+                    font-size: 13px;
+                    line-height: 23px;
+                    text-align: center;
+                } 
+                @media (max-width:767px) {
+                    font-size: 12px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+                @media (max-width:575px) {
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+            text-align: left;
+            position: absolute;
+            bottom: 172px;
+            left: 0px;
+            @media (max-width:1199px) {
+                bottom: 77px;
+                left: 0px;
+                text-align: center;
+            }
+            @media (max-width:991px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                position: unset;
+                text-align: center;
+            }
+        }
+        .phoneChild3{
+            h3{ @extend %phoneChildH3; }
+            p{ 
+                @extend %p;
+                @media (max-width:1199px) {
+                    font-size: 13px;
+                    line-height: 23px;
+                    text-align: center;
+                } 
+                @media (max-width:767px) {
+                    font-size: 12px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+                @media (max-width:575px) {
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+            .fa-headphones{
+                color: #ff3334;
+                font-size: 50px;
+            }
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            right: 0px;
+            @media (max-width:1199px) {
+                top: 0px;
+                right: 0px;
+                text-align: center;
+            }
+            @media (max-width:991px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                position: unset;
+                text-align: center;
+            }
+        }
+        .phoneChild4{
+            h3{ @extend %phoneChildH3; }
+            p{ 
+                @extend %p;
+                @media (max-width:1199px) {
+                    font-size: 13px;
+                    line-height: 23px;
+                    text-align: center;
+                } 
+                @media (max-width:767px) {
+                    font-size: 12px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+                @media (max-width:575px) {
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+            text-align: left;
+            position: absolute;
+            bottom: 172px;
+            right: 0px;
+            @media (max-width:1199px) {
+                bottom: 77px;
+                right: 0px;
+                text-align: center;
+            }
+            @media (max-width:991px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:767px) {
+                position: unset;
+                text-align: center;
+            }
+            @media (max-width:575px) {
+                position: unset;
+                text-align: center;
+            }
+            
+        }
+    }
+}
+// ----------------------- Lorem ipsum dolor sit amet section 
+.dolor{
+    width: 100%;
+    padding: 310px 0px;
+    background: url("../images/Features\ perspective.png") right center no-repeat , linear-gradient($theamColor,#051021);
+    @media (max-width:1199px) {
+        background-color: #071b37;
+        padding: 100px 0px;
+        text-align: center;
+        background-image: none;
+    }
+    @media (max-width:991px) {
+        background-color: #031022;
+        padding: 90px 0px;
+        text-align: center;
+        background-image: none;
+    }
+    @media (max-width:767px) {
+        background-size: contain;
+        padding: 85px 0px;
+        text-align: center;
+    }
+    @media (max-width:575px) {
+        background-size: contain;
+        padding: 80px 0px;
+        text-align: center;
+    }
+    .fa-power-off{
+        color: #ff3334;
+        font-size: 50px;
+    }
+    h2{
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 400;
+        color: #fff;
+        padding: 40px 0px;
+        @media (max-width:767px) {
+            padding: 40px 0px;
+        }
+        @media (max-width:575px) {
+            padding: 20px 0px;
+        }
+    }
+    p{ 
+        @extend %p;
+        @media (max-width:1199px) {
+            font-size: 13px;
+            line-height: 23px;
+            text-align: center;
+        } 
+        @media (max-width:767px) {
+            font-size: 12px;
+            line-height: 22px;
+            text-align: center;
+        }
+        @media (max-width:575px) {
+            font-size: ppx;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+}
+// ----------------------- carousel section
+.carousel{
+    width: 100%;
+    background: url("../images/Photo.png") center center no-repeat;
+    background-color: #071529;
+    padding: 140px 0px; 
+    @media (max-width:991px) {
+        padding: 88px 0px 0px;
+    }
+    @media (max-width:767px) {
+        padding: 77px 0px 0px;
+    }
+    @media (max-width:575px) {
+        padding: 66px 0px 0px;
+    }
+    h3{
+        text-align: center;
+        font-size: 24px;
+        line-height: 34px;
+        color: #66778e;
+        padding-bottom: 80px;
+        @media (max-width:991px) {
+            font-size: 20px;
+            line-height: 30px;
+            padding-bottom: 40px;
+        }
+        @media (max-width:767px) {
+            font-size: 15px;
+            line-height: 25px;
+            padding-bottom: 40px;
+        }
+        @media (max-width:575px) {
+            font-size: 14px;
+            line-height: 24px;
+            padding-bottom: 30px;
+        }
+    }
+    .item{
+        padding-bottom: 50px;
+        .row{
+            align-items: end !important;
+        }
+        .innerPic{
+            @media (max-width:767px) {
+                text-align: right;
+            }
+            @media (max-width:575px) {
+                text-align: center;
+            }
+            img{
+                width: 50px !important;
+                float: right;
+                text-align: center;
+                @media (max-width:767px) {
+                    float: unset;
+                }
+                @media (max-width:575px) {
+                    float: unset;
+                }
+            }
+        }
+        
+        p{
+            font-size: 14px;
+            line-height: 24px;
+            color: $textColor;
+            padding-top: 2px;
+            span{
+                color: #66778e;
+            }
+            @media (max-width:767px) {
+                text-align: center;
+                font-size: 10px;
+                line-height: 20px;
+            }
+            @media (max-width:575px) {
+                text-align: center;
+            }
+        }
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px 7px;
+        background:transparent;
+        border: 1px solid $textColor;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: $textColor !important;
+    }
+    .owl-carousel .owl-item img {
+        @media (max-width:767px) {
+            display: inline;
+            width: 100%;
+        }
+        @media (max-width:575px) {
+            display: inline;
+            width: 100%;
+        }
+    }
+}
+// ---------------------- footer section 
+.footerSection{
+    width: 100%;
+    background-color: #020307;
+    padding: 130px 0px 80px 0px;
+    @media (max-width:991px) {
+        text-align: center;
+        padding: 85px 0px;
+    }
+    @media (max-width:767px) {
+        text-align: center;
+        padding: 70px 0px;
+    }
+    @media (max-width:575px) {
+        text-align: center;
+        padding: 50px 0px;
+    }
+    h1{
+        @extend %h1;
+        text-align: center;
+        @media (max-width:991px) {
+            font-size: 38px;
+            line-height: 48px;
+        }
+        @media (max-width:767px) {
+            font-size: 32px;
+            line-height: 42px;
+        }
+        @media (max-width:575px) {
+            font-size: 28px;
+            line-height: 38px;
+        }
+    }
+    p{ 
+        @extend %p;
+        text-align: center;
+        @media (max-width:1199px) {
+            font-size: 13px;
+            line-height: 23px;
+            text-align: center;
+        } 
+        @media (max-width:767px) {
+            font-size: 12px;
+            line-height: 22px;
+            text-align: center;
+        }
+        @media (max-width:575px) {
+            font-size: 10px;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+    img{
+        padding: 110px 0px;
+        @media (max-width:991px) {
+            width: 500px;
+            padding: 70px 0px;
+        }
+        @media (max-width:767px) {
+            width: 430px;
+            padding: 50px 0px;
+        }
+        @media (max-width:575px) {
+            width: 380px;
+            padding: 30px 0px;
+        }
+    }
+    .btn-light {
+        @extend %button;
+        margin-bottom: 150px;
+        @media (max-width:991px) {
+            margin-bottom: 90px;
+        }
+        @media (max-width:767px) {
+            margin-bottom: 70px;
+        }
+        @media (max-width:575px) {
+            margin-bottom: 32px;
+        }
+        &:hover{
+            background-color: $textColor;
+            border-color: #fff;
+        }
+        @media (max-width:991px) {
+            color: #fff;
+            font-size: 16px;
+            padding: 12px 24px;
+            text-align: center;
+        }
+        @media (max-width:767px) {
+            color: #fff;
+            font-size: 14px;
+            padding: 12px 24px;
+            text-align: center;
+        }
+        @media (max-width:575px) {
+            color: #fff;
+            font-size: 12px;
+            padding: 10px 16px;
+            text-align: center;
+        }
+    }
+    ul{
+        display: inline-block;
+        list-style-type: none;
+        li{
+            display: inline;
+            a{
+                font-size: 16px;
+                line-height: 24px;
+                color: #14396a;
+                text-decoration: none;
+                padding-right: 10px;
+                &:hover{
+                    color: $textColor;
+                }
+                @media (max-width:991px) {
+                    font-size: 14px;
+                    padding-right: 10px;
+                }
+                @media (max-width:767px) {
+                    font-size: 12px;
+                    padding-right: 8px;
+                }
+                @media (max-width:575px) {
+                    font-size: 10px;
+                    padding-right: 6px;
+                }
+            }
+        }
+    }
+    span{
+        float: right;
+        font-size: 16px;
+        line-height: 24px;
+        color: #14396a;
+        @media (max-width:991px) {
+            float: none;
+            font-size: 14px;
+        }
+        @media (max-width:767px) {
+            float: none;
+            font-size: 12px;
+        }
+        @media (max-width:575px) {
+            float: none;
+            font-size: 10px;
+        }
+    }
+}

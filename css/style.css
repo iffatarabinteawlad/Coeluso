@@ -1,0 +1,1231 @@
+.topBlueSection .bannerSection .btn-light, .headphoneSection .text .btn-light, .footerSection .btn-light {
+  color: #fff;
+  background: transparent;
+  border-color: #2a5da3;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 40px;
+}
+
+.topBlueSection .bannerSection h1, .headphoneSection .text h1, .featuresSection h1, .footerSection h1 {
+  font-size: 43px;
+  line-height: 53px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.topBlueSection .bannerSection h1 span, .headphoneSection .text h1 span, .featuresSection h1 span, .footerSection h1 span {
+  color: #2a5da3;
+}
+
+.headphoneSection .text p, .featuresSection .phone .phoneChild1 p, .featuresSection .phone .phoneChild2 p, .featuresSection .phone .phoneChild3 p, .featuresSection .phone .phoneChild4 p, .dolor p, .footerSection p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #66778e;
+}
+
+.featuresSection .phone .phoneChild1 h3, .featuresSection .phone .phoneChild2 h3, .featuresSection .phone .phoneChild3 h3, .featuresSection .phone .phoneChild4 h3 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild1 h3, .featuresSection .phone .phoneChild2 h3, .featuresSection .phone .phoneChild3 h3, .featuresSection .phone .phoneChild4 h3 {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuresSection .phone .phoneChild1 h3, .featuresSection .phone .phoneChild2 h3, .featuresSection .phone .phoneChild3 h3, .featuresSection .phone .phoneChild4 h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.topBlueSection {
+  background-color: #0a2345;
+}
+
+.topBlueSection .headerSection {
+  padding: 60px 0px;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .headerSection {
+    padding: 40px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .headerSection {
+    padding: 30px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .headerSection {
+    padding: 20px 0px;
+    text-align: center;
+  }
+}
+
+.topBlueSection .headerSection .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .headerSection img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .headerSection img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .headerSection img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .headerSection .Hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .headerSection .Hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .headerSection .Hamburger {
+    display: none;
+  }
+}
+
+.topBlueSection .bannerSection {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0px 100px 0px;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .bannerSection {
+    padding: 40px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .bannerSection {
+    padding: 30px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .bannerSection {
+    padding: 20px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .bannerSection h1 {
+    font-size: 38px;
+    line-height: 48px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .bannerSection h1 {
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .bannerSection h1 {
+    font-size: 28px;
+    line-height: 38px;
+    padding-bottom: 4px;
+    text-align: center;
+  }
+}
+
+.topBlueSection .bannerSection h6 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #2a5da3;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .bannerSection h6 {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .bannerSection h6 {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .bannerSection h6 {
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 30px;
+  }
+}
+
+.topBlueSection .bannerSection .btn-light:hover {
+  background-color: #2a5da3;
+  border-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .bannerSection .btn-light {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .bannerSection .btn-light {
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .bannerSection .btn-light {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+    text-align: center;
+  }
+}
+
+.topBlueSection .musicAppSection {
+  padding: 90px 0px 111px 0px;
+  background: url("../images/Screens.png") center center no-repeat;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .musicAppSection {
+    padding: 60px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .musicAppSection {
+    padding: 50px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .musicAppSection {
+    padding: 40px 0px;
+  }
+}
+
+.topBlueSection .musicAppSection .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topBlueSection .musicAppSection .musicAppInner {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .musicAppSection .musicAppInner {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .musicAppSection .musicAppInner {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .musicAppSection .musicAppInner {
+    padding-bottom: 40px;
+  }
+}
+
+.topBlueSection .musicAppSection .musicAppInner img {
+  max-width: 100%;
+  -webkit-box-shadow: 5px 0px 18px 12px #071b37 , 5px 0px 18px 12px #091e3c;
+          box-shadow: 5px 0px 18px 12px #071b37 , 5px 0px 18px 12px #091e3c;
+}
+
+.topBlueSection .musicAppSection .musicAppInner img:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .topBlueSection .musicAppSection .musicAppInner img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBlueSection .musicAppSection .musicAppInner img {
+    width: 280px;
+  }
+}
+
+@media (max-width: 575px) {
+  .topBlueSection .musicAppSection .musicAppInner img {
+    width: 215px;
+  }
+}
+
+.headphoneSection {
+  background: url("../images/Headphones.png") left center no-repeat;
+  padding: 180px 0px;
+  background-color: #0a2345;
+  text-align: left;
+}
+
+@media (max-width: 1199px) {
+  .headphoneSection {
+    text-align: center;
+    padding: 50px 0px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 991px) {
+  .headphoneSection {
+    text-align: center;
+    padding: 50px 0px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 767px) {
+  .headphoneSection {
+    text-align: center;
+    padding: 40px 0px;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 575px) {
+  .headphoneSection {
+    text-align: center;
+    padding: 20px 0px;
+    background-size: contain;
+  }
+}
+
+.headphoneSection .text {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .headphoneSection .text h1 {
+    font-size: 38px;
+    line-height: 48px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .headphoneSection .text h1 {
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .headphoneSection .text h1 {
+    font-size: 28px;
+    line-height: 38px;
+    padding-bottom: 4px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .headphoneSection .text p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .headphoneSection .text p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .headphoneSection .text p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.headphoneSection .text .btn-light:hover {
+  background-color: #2a5da3;
+  border-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .headphoneSection .text .btn-light {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .headphoneSection .text .btn-light {
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .headphoneSection .text .btn-light {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+    text-align: center;
+  }
+}
+
+.featuresSection {
+  background-color: #0a2345;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection {
+    padding: 100px 0px;
+  }
+}
+
+.featuresSection h1 {
+  padding-bottom: 110px;
+}
+
+@media (max-width: 991px) {
+  .featuresSection h1 {
+    padding-bottom: 60px;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection h1 {
+    padding-bottom: 30px;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection h1 {
+    padding-bottom: 20px;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+  }
+}
+
+.featuresSection .phone {
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneImage {
+    width: 570px;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuresSection .phone .phoneImage {
+    width: 570px;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneImage {
+    width: 522px;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneImage {
+    width: 400px;
+  }
+}
+
+.featuresSection .phone .phoneChild1 {
+  text-align: left;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild1 p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild1 p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild1 p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.featuresSection .phone .phoneChild1 .fa-volume-up {
+  color: #ff3334;
+  font-size: 50px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild1 {
+    top: 0px;
+    left: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuresSection .phone .phoneChild1 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild1 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild1 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+.featuresSection .phone .phoneChild2 {
+  text-align: left;
+  position: absolute;
+  bottom: 172px;
+  left: 0px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild2 p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild2 p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild2 p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild2 {
+    bottom: 77px;
+    left: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuresSection .phone .phoneChild2 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild2 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild2 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+.featuresSection .phone .phoneChild3 {
+  text-align: left;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild3 p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild3 p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild3 p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.featuresSection .phone .phoneChild3 .fa-headphones {
+  color: #ff3334;
+  font-size: 50px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild3 {
+    top: 0px;
+    right: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuresSection .phone .phoneChild3 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild3 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild3 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+.featuresSection .phone .phoneChild4 {
+  text-align: left;
+  position: absolute;
+  bottom: 172px;
+  right: 0px;
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild4 p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild4 p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild4 p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .featuresSection .phone .phoneChild4 {
+    bottom: 77px;
+    right: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuresSection .phone .phoneChild4 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuresSection .phone .phoneChild4 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .featuresSection .phone .phoneChild4 {
+    position: unset;
+    text-align: center;
+  }
+}
+
+.dolor {
+  width: 100%;
+  padding: 310px 0px;
+  background: url("../images/Features perspective.png") right center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#0a2345), to(#051021));
+  background: url("../images/Features perspective.png") right center no-repeat, linear-gradient(#0a2345, #051021);
+}
+
+@media (max-width: 1199px) {
+  .dolor {
+    background-color: #071b37;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .dolor {
+    background-color: #031022;
+    padding: 90px 0px;
+    text-align: center;
+    background-image: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .dolor {
+    background-size: contain;
+    padding: 85px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .dolor {
+    background-size: contain;
+    padding: 80px 0px;
+    text-align: center;
+  }
+}
+
+.dolor .fa-power-off {
+  color: #ff3334;
+  font-size: 50px;
+}
+
+.dolor h2 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 400;
+  color: #fff;
+  padding: 40px 0px;
+}
+
+@media (max-width: 767px) {
+  .dolor h2 {
+    padding: 40px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .dolor h2 {
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .dolor p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .dolor p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .dolor p {
+    font-size: ppx;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.carousel {
+  width: 100%;
+  background: url("../images/Photo.png") center center no-repeat;
+  background-color: #071529;
+  padding: 140px 0px;
+}
+
+@media (max-width: 991px) {
+  .carousel {
+    padding: 88px 0px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    padding: 77px 0px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel {
+    padding: 66px 0px 0px;
+  }
+}
+
+.carousel h3 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  color: #66778e;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+  .carousel h3 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel h3 {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+}
+
+.carousel .item {
+  padding-bottom: 50px;
+}
+
+.carousel .item .row {
+  -webkit-box-align: end !important;
+      -ms-flex-align: end !important;
+          align-items: end !important;
+}
+
+@media (max-width: 767px) {
+  .carousel .item .innerPic {
+    text-align: right;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel .item .innerPic {
+    text-align: center;
+  }
+}
+
+.carousel .item .innerPic img {
+  width: 50px !important;
+  float: right;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .carousel .item .innerPic img {
+    float: unset;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel .item .innerPic img {
+    float: unset;
+  }
+}
+
+.carousel .item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #2a5da3;
+  padding-top: 2px;
+}
+
+.carousel .item p span {
+  color: #66778e;
+}
+
+@media (max-width: 767px) {
+  .carousel .item p {
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel .item p {
+    text-align: center;
+  }
+}
+
+.carousel .owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: transparent;
+  border: 1px solid #2a5da3;
+}
+
+.carousel .owl-theme .owl-dots .owl-dot.active span, .carousel .owl-theme .owl-dots .owl-dot:hover span {
+  background: #2a5da3 !important;
+}
+
+@media (max-width: 767px) {
+  .carousel .owl-carousel .owl-item img {
+    display: inline;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel .owl-carousel .owl-item img {
+    display: inline;
+    width: 100%;
+  }
+}
+
+.footerSection {
+  width: 100%;
+  background-color: #020307;
+  padding: 130px 0px 80px 0px;
+}
+
+@media (max-width: 991px) {
+  .footerSection {
+    text-align: center;
+    padding: 85px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection {
+    text-align: center;
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection {
+    text-align: center;
+    padding: 50px 0px;
+  }
+}
+
+.footerSection h1 {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footerSection h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+.footerSection p {
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .footerSection p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection p {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.footerSection img {
+  padding: 110px 0px;
+}
+
+@media (max-width: 991px) {
+  .footerSection img {
+    width: 500px;
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection img {
+    width: 430px;
+    padding: 50px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection img {
+    width: 380px;
+    padding: 30px 0px;
+  }
+}
+
+.footerSection .btn-light {
+  margin-bottom: 150px;
+}
+
+@media (max-width: 991px) {
+  .footerSection .btn-light {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection .btn-light {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection .btn-light {
+    margin-bottom: 32px;
+  }
+}
+
+.footerSection .btn-light:hover {
+  background-color: #2a5da3;
+  border-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .footerSection .btn-light {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection .btn-light {
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection .btn-light {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 16px;
+    text-align: center;
+  }
+}
+
+.footerSection ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footerSection ul li {
+  display: inline;
+}
+
+.footerSection ul li a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #14396a;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.footerSection ul li a:hover {
+  color: #2a5da3;
+}
+
+@media (max-width: 991px) {
+  .footerSection ul li a {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection ul li a {
+    font-size: 12px;
+    padding-right: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection ul li a {
+    font-size: 10px;
+    padding-right: 6px;
+  }
+}
+
+.footerSection span {
+  float: right;
+  font-size: 16px;
+  line-height: 24px;
+  color: #14396a;
+}
+
+@media (max-width: 991px) {
+  .footerSection span {
+    float: none;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerSection span {
+    float: none;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footerSection span {
+    float: none;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
